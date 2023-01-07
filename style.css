@@ -127,7 +127,7 @@ footer {
 /* ==============Main Body Starts================ */
 #main-body-wrapper .container {
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 2fr 1fr;
   column-gap: 50px;
   border-left: 1px solid black;
   border-right: 1px solid black;
@@ -228,11 +228,11 @@ footer {
 }
 
 .form input {
-  width: 85%;
+  width: 100%;
 }
 
 .form button {
-  width: 15%;
+  cursor: pointer;
 }
 
 .aside_block button {
